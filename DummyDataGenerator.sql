@@ -3,7 +3,6 @@ IF OBJECT_ID('SiparisTest', 'U') IS NOT NULL
     DROP TABLE SiparisTest;
 GO
 
-
 CREATE TABLE SiparisTest (
     ID INT IDENTITY(1,1) PRIMARY KEY,
     MusteriAdi NVARCHAR(50),
