@@ -11,7 +11,7 @@ CREATE TABLE TransferLoglari (
     GonderenID INT,
     AliciID INT,
     Tutar MONEY,
-    IslemDurumu NVARCHAR(20), -- 'Basarili' veya 'Hatali'
+    IslemDurumu NVARCHAR(20), 
     IslemTarihi DATETIME DEFAULT GETDATE()
 );
 GO
